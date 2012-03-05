@@ -35,6 +35,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="pepperTheEggs:" destination="2" eventType="touchUpInside" id="xHL-dl-9LA"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="hHz-25-mPQ">
                                 <rect key="frame" x="15" y="306" width="285" height="37"/>
@@ -47,6 +50,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="eatTheEggs:" destination="2" eventType="touchUpInside" id="n0h-Vk-oge"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="KLr-ZH-oiK">
                                 <rect key="frame" x="15" y="354" width="285" height="37"/>
@@ -59,6 +65,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="goToJail:" destination="2" eventType="touchUpInside" id="Dg0-77-a9A"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="M65-bn-EQu">
                                 <rect key="frame" x="20" y="261" width="87" height="37"/>
@@ -71,6 +80,9 @@
                                 <state key="highlighted">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="saltTheEggs:" destination="2" eventType="touchUpInside" id="fzr-54-UIb"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
@@ -137,6 +149,12 @@
     <classes>
         <class className="FirstViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/FirstViewController.h"/>
+            <relationships>
+                <relationship kind="action" name="eatTheEggs:"/>
+                <relationship kind="action" name="goToJail:"/>
+                <relationship kind="action" name="pepperTheEggs:"/>
+                <relationship kind="action" name="saltTheEggs:"/>
+            </relationships>
         </class>
         <class className="SecondViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/SecondViewController.h"/>
